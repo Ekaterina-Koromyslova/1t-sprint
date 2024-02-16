@@ -1,0 +1,205 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* здесь взяли шрифты с google fonts  */
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.header-wrapper{
+   padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.header-contacts{
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.name {
+    text-align: center;
+}
+
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin-top: 50px;
+    display: flex; 
+    background-color: #F8F8FD;
+    padding: 24px; 
+    border-radius: 24px;
+
+}
+
+.info-list li {
+    border-bottom: solid 1px #EDEDF9; 
+}
+
+li .info-list {
+    border-bottom: solid 1px #EDEDF9; 
+}
+
+
+.text-shadow {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.heading-job-experience {
+    padding: 15px 315px; 
+    color: #9999A3;
+}
+
+.main-list p {
+    color:black;
+}
+
+.item-list {
+    padding-top:20px;
+}
+
+.list-time {
+    color: #BCBCC2 !important;
+
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+     list-style-type: none;
+     color: #9999A3;
+}
+.right > li{
+   color: black;
+}
+
+/* main */
+.main-wrapper{
+   padding-top: 30px;
+    padding-left: 70px;
+}
+.main-box{
+    padding-left: 250px;
+     display: flex;
+     justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+/* ==== */
+
+.main-content{
+    max-width: 64%;
+}
+.main-list:nth-child(1n) {
+     color: #9999A3;
+}
+
+.main-text {
+    background-color: #A9A9FD;
+    padding: 8px 12px;
+    border-radius: 8px; 
+    color: white;
+    margin-right: 12px;
+}
+
+.more {
+    background-color: #F1A9FD;
+}
+
+/* нужно добавить стили для контента */
+/* и стилизовать остальные секции */
+
+/*footer-style*/
+
+.heading-skills , .heading-language , .heading-about-me {
+    margin-bottom: 12px; 
+    color: #BCBCC2;
+    font-size: 20px;
+    font-weight: 300; 
+
+}
+
+.skills , .language , .about-me {
+    width: 940px;
+    margin: 0 auto; 
+    list-style: none;
+}
+
+.skills {
+    margin-bottom: 24px; 
+}
+
+.language {
+    margin-bottom: 24px; 
+}
+
+.about-me {
+    margin-bottom: 60px;
+}
+
+.skills-list {
+    list-style: none;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-list li {
+    background-color: #F5F5FA;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.languages-list {
+    list-style: none;
+    width: 940px;
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+}
+
+
+.languages-list li {
+    background-color: #F5F5FA;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+
+
+.about-me p {
+    margin: 0 auto; 
+    padding: 0;  
+    font-size: 20px; 
+    font-weight: 400px; 
+    line-height: 28px; 
+}
+
